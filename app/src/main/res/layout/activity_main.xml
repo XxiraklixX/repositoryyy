@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/button25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00BCD4"
+        android:text="Button"
+        android:textColor="#673AB7"
+        app:layout_constraintEnd_toStartOf="@+id/button24"
+        app:layout_constraintTop_toTopOf="@+id/button24" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="142dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#8002FF"
+        android:text="Button"
+        android:textColor="#FDFDFD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button15" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="238dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="96dp"
+        android:backgroundTint="#03FBC1"
+        android:text="Button"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="179dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#031CFF"
+        android:text="Button"
+        android:textColor="#FF0000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button14" />
+
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#CDDC39"
+        android:text="Button"
+        app:layout_constraintStart_toEndOf="@+id/button24"
+        app:layout_constraintTop_toTopOf="@+id/button24" />
+
+    <Button
+        android:id="@+id/button24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#3F51B5"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button16"
+        app:layout_constraintVertical_bias="0.132" />
+
+    <Button
+        android:id="@+id/button26"
+        android:layout_width="60dp"
+        android:layout_height="65dp"
+        android:backgroundTint="#AA5B06"
+        android:text="B        U"
+        app:layout_constraintEnd_toStartOf="@+id/button27"
+        app:layout_constraintTop_toTopOf="@+id/button27" />
+
+    <Button
+        android:id="@+id/button27"
+        android:layout_width="60dp"
+        android:layout_height="65dp"
+        android:text="B   U"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button24"
+        app:layout_constraintVertical_bias="0.136" />
+
+    <Button
+        android:id="@+id/button28"
+        android:layout_width="60dp"
+        android:layout_height="65dp"
+        android:backgroundTint="#F80202"
+        android:text="B     U"
+        android:textColor="#0C0C0C"
+        app:layout_constraintStart_toEndOf="@+id/button27"
+        app:layout_constraintTop_toTopOf="@+id/button27" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
